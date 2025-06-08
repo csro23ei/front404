@@ -5,8 +5,11 @@
     "scripts": {
         "dev": "next dev --turbo",
         "build": "next build",
-        "start": "next start -p 4000",
+
+        "start": "next start -p $PORT",
+
         "lint": "next lint"
+
     },
     "dependencies": {
         "@stomp/stompjs": "^7.1.1",
